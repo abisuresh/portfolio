@@ -1,0 +1,194 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <script src="js/main.js"></script>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+
+        body{
+
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        .bg {
+
+            /*background-image: url("img/grandcanyon.jpg");*/
+            background: url("img/grandcanyon.jpg") #835468;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            color: black;
+            font-family: Papyrus, cursive;
+            font-size: 24px;
+            font-weight: 600;
+            align-content: center;
+            text-align: center;
+            border-style: none;
+        }
+
+        .header {
+            color: black;
+            text-align: center;
+
+        }
+
+
+        h1{
+
+            color: black;
+
+        }
+
+        h2{
+
+        }
+
+        h3{
+
+        }
+
+        /* Style the tab */
+        div.tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        div.tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+        }
+
+        /* Change background color of buttons on hover */
+        div.tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        div.tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+
+        .tablinks {
+            -webkit-animation: fadeEffect 1s;
+            animation: fadeEffect 1s; /* Fading effect takes 1 second */
+        }
+
+        @-webkit-keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+    </style>
+
+    <body>
+
+
+    <div class="bg">
+        <div class="header">
+
+        </div>
+
+
+        <h1>
+        </h1>
+
+        <h2>
+        </h2>
+
+        <h3>
+        </h3>
+
+
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Aboutme')">About me</button>
+            <button class="tablinks" onclick="openCity(event, 'Mywork')">My Work</button>
+            <button class="tablinks" onclick="openCity(event, 'Qualifications')">Qualifications</button>
+            <button class="tablinks" onclick="openCity(event, 'More')">More</button>
+        </div>
+
+
+
+        <div id="Aboutme" class="tabcontent">
+            <h3>About me </h3>
+            <p>I am...</p>
+        </div>
+
+        <div id="Mywork" class="tabcontent">
+            <h3>My work</h3>
+            <p>Sample of my websites.</p>
+        </div>
+
+        <div id="Qualifications" class="tabcontent">
+            <h3>Qualifications</h3>
+            <p>Educational background...</p>
+        </div>
+
+        <div id="More" class="tabcontent">
+            <h3>Purchasing options</h3>
+            <p>Etc</p>
+        </div>
+
+</div>
+
+    <!--<div id="Aboutme" class="tabcontent">-->
+        <!--<h3>About me</h3>-->
+        <!--<p>I am...</p>-->
+    <!--</div>-->
+
+    <!--<div id="MyWork" class="tabcontent">-->
+        <!--<h3>Paris</h3>-->
+        <!--<p>Paris is the capital of France.</p>-->
+    <!--</div>-->
+
+    <!--<div id="Qualifications" class="tabcontent">-->
+        <!--<h3>Qualifications</h3>-->
+        <!--<p>Educational background...</p>-->
+    <!--</div>-->
+
+
+
+    </body>
+
+
+
+
