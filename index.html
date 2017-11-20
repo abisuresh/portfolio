@@ -22,16 +22,17 @@
     <style>
 
         body{
-
+            background-color: #cfd2d6;
         }
 
         body, html {
             height: 100%;
+            margin:0;
+            padding:0;
         }
 
         .bg {
 
-            /*background-image: url("img/grandcanyon.jpg");*/
             background: url("img/grandcanyon.jpg") #835468;
             background-size: cover;
             height: 100%;
@@ -48,6 +49,8 @@
         .header {
             color: black;
             text-align: center;
+            padding-top: 1%;
+            font-size: 40px;
 
         }
 
@@ -69,7 +72,7 @@
         /* Style the tab */
         div.tab {
             overflow: hidden;
-            border: 1px solid #ccc;
+            border: none;
             background-color: #f1f1f1;
         }
 
@@ -86,7 +89,7 @@
 
         /* Change background color of buttons on hover */
         div.tab button:hover {
-            background-color: #ddd;
+            background-color: ;
         }
 
         /* Create an active/current tablink class */
@@ -98,8 +101,7 @@
         .tabcontent {
             display: none;
             padding: 6px 12px;
-            border: 1px solid #ccc;
-            border-top: none;
+            border: none;
         }
 
         .tablinks {
@@ -124,8 +126,10 @@
 
     <div class="bg">
         <div class="header">
+            My Portfolio
 
         </div>
+
 
 
         <h1>
@@ -140,50 +144,44 @@
 
 
         <div class="tab">
+            <button class="tablinks" onclick="openCity(event,'Home')"> Home </button>
             <button class="tablinks" onclick="openCity(event, 'Aboutme')">About me</button>
             <button class="tablinks" onclick="openCity(event, 'Mywork')">My Work</button>
             <button class="tablinks" onclick="openCity(event, 'Qualifications')">Qualifications</button>
-            <button class="tablinks" onclick="openCity(event, 'More')">More</button>
+            <button class="tablinks" onclick="openCity(event, 'PurchasingOptions')">Purchasing options</button>
+            <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
         </div>
 
 
 
-        <div id="Aboutme" class="tabcontent">
-            <h3>About me </h3>
-            <p>I am...</p>
+        <div id="Home" class="tabcontent">
+
+        </div>
+
+        <div id="Aboutme" class="tabcontent" style="text-align:center; margin-left: 25%; margin-right: 25%">
+            <p>I am a young woman with an educational background as a medical doctor who has experience and interests in web development</p>
         </div>
 
         <div id="Mywork" class="tabcontent">
-            <h3>My work</h3>
-            <p>Sample of my websites.</p>
+            <div class="example1" style="color:goldenrod; border: none; line-height: 400px; text-align: left; vertical-align: middle; margin-top: auto; margin-bottom: auto">
+                <a href="http://wedding.devinssuresh.com">Wedding Website </a>
+
+            </div>
         </div>
 
         <div id="Qualifications" class="tabcontent">
-            <h3>Qualifications</h3>
             <p>Educational background...</p>
         </div>
 
-        <div id="More" class="tabcontent">
-            <h3>Purchasing options</h3>
-            <p>Etc</p>
+        <div id="PurchasingOptions" class="tabcontent">
+
+        </div>
+
+        <div id="Contact" class="tabcontent">
+
         </div>
 
 </div>
-
-    <!--<div id="Aboutme" class="tabcontent">-->
-        <!--<h3>About me</h3>-->
-        <!--<p>I am...</p>-->
-    <!--</div>-->
-
-    <!--<div id="MyWork" class="tabcontent">-->
-        <!--<h3>Paris</h3>-->
-        <!--<p>Paris is the capital of France.</p>-->
-    <!--</div>-->
-
-    <!--<div id="Qualifications" class="tabcontent">-->
-        <!--<h3>Qualifications</h3>-->
-        <!--<p>Educational background...</p>-->
-    <!--</div>-->
 
 
 
