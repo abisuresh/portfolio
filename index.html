@@ -23,6 +23,7 @@
 
         body{
             background-color: #cfd2d6;
+
         }
 
         body, html {
@@ -38,7 +39,7 @@
             height: 100%;
             width: 100%;
             color: black;
-            font-family: Papyrus, cursive;
+            font-family: Raleway, sans-serif;
             font-size: 24px;
             font-weight: 600;
             align-content: center;
@@ -102,6 +103,7 @@
             display: none;
             padding: 6px 12px;
             border: none;
+            font-family: "Times New Roman", serif;
         }
 
         .tablinks {
@@ -125,7 +127,8 @@
 
 
     <div class="bg">
-        <div class="header">
+
+        <div class="header" style="font-family: Raleway, sans-serif">
             My Portfolio
 
         </div>
@@ -141,15 +144,15 @@
         <h3>
         </h3>
 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-
-        <div class="tab">
-            <button class="tablinks" onclick="openCity(event,'Home')"> Home </button>
-            <button class="tablinks" onclick="openCity(event, 'Aboutme')">About me</button>
-            <button class="tablinks" onclick="openCity(event, 'Mywork')">My Work</button>
-            <button class="tablinks" onclick="openCity(event, 'Qualifications')">Qualifications</button>
-            <button class="tablinks" onclick="openCity(event, 'PurchasingOptions')">Purchasing options</button>
-            <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+        <div class="tab" style="font-family: Raleway, sans-serif">
+            <button class="tablinks" onclick="openPage(event,'Home')"> Home </button>
+            <button class="tablinks" onclick="openPage(event, 'Aboutme')">About me</button>
+            <button class="tablinks" onclick="openPage(event, 'Mywork')">My Work</button>
+            <button class="tablinks" onclick="openPage(event, 'Qualifications')">Qualifications</button>
+            <button class="tablinks" onclick="openPage(event, 'PurchasingOptions')">Purchasing options</button>
+            <button class="tablinks" onclick="openPage(event, 'Contact')">Contact</button>
         </div>
 
 
@@ -181,12 +184,31 @@
 
         </div>
 
+        <!--//bootstrap- Responsive dropdown menu-->
+
+        <!--<div class="navbar navbar-default navbar-fixed-top">-->
+            <!--<div class="container">-->
+                <!--<div class="navbar header">-->
+                    <!--<button type="button" class="navbar toggle" data-toggle="collapse" data-target=".navbar collapse">-->
+                        <!--<span class="sr-only">Navigation</span>-->
+                        <!--<span class="icon-bar"></span>-->
+                        <!--<span class="icon-bar"></span>-->
+                        <!--<span class="icon-bar"></span>-->
+                    <!--</button>-->
+                    <!--<a class="navbar brand" href="#">My Portfolio </a>-->
+                <!--</div>-->
+
+            <!--</div>-->
+
+        <!--</div>-->
+
+
 </div>
 
 
 
     </body>
-
+</html>
 
 
 
